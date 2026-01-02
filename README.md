@@ -1,9 +1,9 @@
 # FinOps for AI Decision Tree 🚀
-Putting together a public framework/decision tree on how organisations can visualize their GenAI costs. I'm currently testing this logic flow and welcome feedback! 
+This framework helps organizations establish accurate AI budget forecasts and review processes by guiding the right stakeholders to ask the right questions at each stage of the budgeting lifecycle. I'm currently testing this logic flow and welcome feedback! 
 ### The Framework logic:
 ```mermaid
 graph TD
-    Start[FinOps for AI Budget Framework] --> Phase1[Phase 1: Preparation & Inputs]
+    Start[Have a new AI POC?] --> Phase1[Phase 1: Preparation & Inputs]
     
     Phase1 --> Q1_1{Do we have historical<br/>AI cost data?}
     Q1_1 -->|NO| A1_1[Establish baseline tracking<br/>- Implement tagging<br/>- Set up cost allocation<br/>- Wait 30-60 days]
@@ -101,10 +101,10 @@ graph TD
     
     style Start fill:#e1f5ff
     style Phase1 fill:#fff4e1
-    style Phase2 fill:#ffe1f5
-    style Phase3 fill:#e1ffe1
-    style Phase4 fill:#ffe1e1
-    style Phase5 fill:#f5e1ff
+    style Phase2 fill:#fff4e1
+    style Phase3 fill:#fff4e1
+    style Phase4 fill:#fff4e1
+    style Phase5 fill:#fff4e1
     style End fill:#e1f5ff
 
 ```
