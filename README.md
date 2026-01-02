@@ -1,5 +1,5 @@
 # FinOps for AI Decision Tree 🚀
-This is a public framework for optimizing GenAI costs. I'm currently testing this logic and welcome feedback!
+Putting together a public framework/decision tree on how organisations can visualize their GenAI costs. I'm currently testing this logic flow and welcome feedback! 
 ### The Framework logic:
 ```mermaid
 graph TD
